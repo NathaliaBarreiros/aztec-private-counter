@@ -1,0 +1,14 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@aztec/accounts": "^0.76.4",
+    "@aztec/aztec.js": "^0.76.4",
+    "@aztec/noir-contracts.js": "^0.76.4",
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  }
+}
