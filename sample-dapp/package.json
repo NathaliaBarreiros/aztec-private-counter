@@ -1,0 +1,12 @@
+{
+  "name": "sample-dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@aztec/accounts": "^0.77.0-testnet-ignition.17",
+    "@aztec/aztec.js": "^0.77.0-testnet-ignition.17",
+    "@aztec/noir-contracts.js": "^0.77.0-testnet-ignition.17"
+  }
+}
