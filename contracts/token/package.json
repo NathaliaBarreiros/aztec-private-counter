@@ -10,5 +10,12 @@
     "@aztec/noir-contracts.js": "^0.76.4",
     "@types/node": "^22.13.8",
     "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "yarn clean && tsc -b",
+    "build:dev": "tsc -b --watch",
+    "clean": "rm -rf ./dest tsconfig.tsbuildinfo",
+    "start": "yarn build && LOG_LEVEL=info node ./dest/index.js"
   }
 }
